@@ -85,4 +85,16 @@ public class Order {
     public int hashCode() {
         return id != null ? id.hashCode() : 0;
     }
+
+    public User getClient() {
+        return client;
+    }
+
+    public void setClient(User client) {
+        this.client = client;
+    }
+
+    public Payment getPayment() {
+        return payment;
+    }
 }
